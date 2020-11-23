@@ -33,7 +33,17 @@ h1,h2,h3,a, .post-into,.post-author,.community-links,.guide p {
     background-color: rgb(158, 155, 155);
     text-align: center;
 }
-
+.header-table-content a {
+    color: #fff;
+    text-decoration: underline #666;
+    font-size: 4rem;
+    text-align: center;
+    display: block;
+    line-height: 50px;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    font-family: "Fredoka One", cursive;
+}
 .primary-nav {
     display: flex;
     list-style: none;
@@ -129,3 +139,347 @@ h1,h2,h3,a, .post-into,.post-author,.community-links,.guide p {
     margin-left: 10px;
     margin-right: 5px;
 }
+
+/* LATEST ARTICLES SECTION */
+
+.latest-articles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.notify-article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    align-items: center;
+    background: linear-gradient(to right, #828287, #828287 50.05%, #787878 0%, #787878);
+}
+  
+.notify-article h1 {
+    font-size: 40px;
+    background: #fff;
+    font-weight: 700;
+    width: fit-content;
+}
+  
+.first-notify {
+    margin-top: 40px;
+    padding: 10px 10px 0 10px;
+    color: #666;
+}
+  
+.second-notify {
+    margin-bottom: 40px;
+    padding: 0 10px 10px 10px;
+    color: #666;
+}
+  
+.articles {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+}
+  
+.article-wrapper {
+    height: 500px;
+    text-align: left;
+    padding: 80px;
+    position: relative;
+}
+  
+.article1 {
+    background: #828287;
+}
+  
+.article2 {
+    background: #787878;
+}
+  
+.article3 {
+    background: #6b6b6b;
+}
+  
+.article4 {
+    background: #727272;
+}
+  
+.author {
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+  
+.photo {
+    border: solid white;
+    border-radius: 8px;
+    width: 75px;
+    height: 75px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    transform: rotate(-20deg);
+    transform-origin: left bottom;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
+    transition: all 0.2s ease-out 0s;
+}
+  
+.photo:hover {
+    transform: rotate(0deg);
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.5rem 2rem;
+}
+  
+.photo img {
+    width: 75px;
+    height: 75px;
+}
+  
+.name {
+    display: inline-flex;
+    margin-left: 10px;
+    font-size: 18px;
+}
+  
+.name h3 {
+    padding-left: 5px;
+}
+  
+.article-title {
+    font-family: "Fredoka One", cursive;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+  }
+  
+.links {
+    display: inline-flex;
+}
+
+.links p {
+    margin-right: 40px;
+    font-size: 15px;
+    font-family: "Fredoka One", cursive;
+    font-weight: bold;
+}
+
+.arrow-link {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.arrow-section {
+    position: absolute;
+    bottom: 6rem;
+}
+
+.membership {
+    padding: 1.5em 0;
+    color: #fff;
+    position: relative;
+    background-color: #535355;
+}
+
+.membership-conatainer {
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.membership-text {
+    width: 50%;
+    margin: 50px;
+    line-height: 2rem;
+    font-size: 2rem;
+    padding-right: 4em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+.membership-parag {
+    font-size: 20px;
+    line-height: 32.9px;
+}
+
+.membership-parag a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.mem-list-main {
+    margin: 40px;
+    line-height: 35px;
+    font-size: 18px;
+    list-style: decimal;
+}
+
+.mem-list-main li::before {
+    content: "\2022";
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.mem-list-main a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.cat-firechat {
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    transform: rotate(-20deg);
+    transform-origin: left bottom;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
+    transition: all 0.2s ease-out 0s;
+    background-color: transparent;
+    position: relative;
+    z-index: 20;
+}
+
+.cat-firechat:hover {
+    transform: rotate(0deg);
+    box-shadow: rgba(0, 0, 0, 0.3)0 0.5rem 2rem;
+    z-index: 10;
+}
+.membership-btn {
+    background-color: #333232;
+    margin: 0.75em;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 308px;
+}
+
+.membership-btn:hover {
+    background-color: #727272;
+    transition: all 0.4s ease-out 0s;
+}
+
+.mem-img {
+    background-color: transparent;
+}
+
+/* latest Post Section */
+.latest-posts{
+    height: 600px;
+    display: flex;
+    margin-right: 45px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.post-wrapper {
+    height: 550px;
+    position: relative;
+    z-index: 10;
+    margin-right: -50px;
+}
+
+.post-wrapper:hover {
+    transform: scale(1.05) translateY(-0.5px);
+    transition: all 0.5s;
+    z-index: 20;
+    background-color: rgb(184, 180, 180);
+}
+
+.post-intro{
+    font-size: 13px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.post-arrow a {
+    color: white;
+    font-size: 3.5rem;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.smashing-main a {
+    color: white;
+    text-decoration: underline;
+}
+
+.post-intro h1 {
+    margin-bottom: 20px;
+}
+
+.guide a {
+    font-size: 20px;
+    padding: 14px;
+    font-family: sans-serif;
+    font-weight: 800;
+    border-radius: 10px;
+    background: rgb(87, 84, 84);
+  }
+  
+  .post-intro h1 a {
+    text-decoration: none;
+  }
+  
+  .post-intro h6 {
+    color: rgb(59, 53, 53);
+  }
+  
+  .post-intro span {
+    color: rgb(59, 53, 53);
+  }
+  
+  .post-intro h2 {
+    margin-top: 20px;
+    font-weight: 100;
+    line-height: 32px;
+  }
+  
+  .post-author {
+    font-size: 15px;
+    font-weight: 800;
+  }
+  
+  .post-arrow {
+    display: flex;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    align-items: center;
+  }
+  
+  .post-wrapper:hover .post-arrow {
+    background-color: #333232;
+    transition: all 0.5s;
+  }
+  
+  .post-wrapper:hover .post-title {
+    color: rgb(105, 101, 101);
+  }
+  
+  .post-author:hover {
+    color: lightgray;
+  }
+  
+  hr {
+    width: 23%;
+    margin-left: 21px;
+    color: black;
+  }
+
+  
