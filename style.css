@@ -671,3 +671,54 @@ h1,h2,h3,a, .post-into,.post-author,.community-links,.guide p {
   margin-bottom: 30px;
   line-height: 1.5em;
 }
+
+/* MAIN TABLE CONTENTS SECTION */
+
+.main-table-contents-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #333232;
+}
+
+.first-contents-span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2px;
+  display: block;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 25px;
+}
+
+.table-contents-para {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.table-link-1 {
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #787878;
+  padding: 13px;
+  border-radius: 6px;
+  width: 25rem;
+  margin: 0 auto;
+}
+
+.homepage-illus {
+  width: 80rem;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
