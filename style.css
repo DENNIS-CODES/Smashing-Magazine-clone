@@ -577,7 +577,6 @@ h1,h2,h3,a, .post-into,.post-author,.community-links,.guide p {
   .latest-arti::after {
       content: '  ';
   }
-
   /* Community Links */
 
   .community-links {
@@ -590,3 +589,85 @@ h1,h2,h3,a, .post-into,.post-author,.community-links,.guide p {
   .person-of-week {
       display: flex;
   }
+
+  .community-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  background: rgb(134, 132, 132);
+}
+
+.person-of-week {
+  display: flex;
+  width: 80%;
+  margin-top: 90px;
+  margin-left: 125px;
+}
+
+.communtities {
+  width: 84%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: initial;
+  align-items: center;
+  margin-top: 90px;
+  margin-left: 90px;
+}
+
+.community-wrapper {
+  display: inline-flex;
+  width: 90%;
+}
+
+.community {
+  height: 380px;
+  text-align: left;
+  width: 344px;
+}
+
+.community-author {
+  display: inline-flex;
+  margin-bottom: 15px;
+}
+
+.community-photo {
+  border: solid white;
+  border-radius: 8px;
+  width: 75px;
+  height: 75px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  display: block;
+  transform: rotate(-20deg);
+  transform-origin: left bottom;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
+  transition: all 0.2s ease-out 0s;
+  margin-right: 10px;
+}
+
+.community-photo:hover {
+  transform: rotate(0deg);
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0.5rem 2rem;
+}
+
+.person-of-week .community-photo {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.community-name {
+  display: inline-flex;
+  font-size: 18px;
+}
+
+.community-article {
+  margin-bottom: 20px;
+}
+
+.community-links h2 {
+  font-weight: 100;
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
