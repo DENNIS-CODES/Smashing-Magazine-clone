@@ -423,7 +423,7 @@ h1,h2,h3,a, .post-into,.post-author,.community-links,.guide p {
 .guide a {
     font-size: 20px;
     padding: 14px;
-    font-family: sans-serif;
+    font-family: "Fredoka One", cursive;
     font-weight: 800;
     border-radius: 10px;
     background: rgb(87, 84, 84);
@@ -482,243 +482,397 @@ h1,h2,h3,a, .post-into,.post-author,.community-links,.guide p {
     color: black;
   }
 
-  /* Smashing Membership */
+ /* Smashing Membership */
 
-  .smashing {
-      width: 100%;
-      height: 800px;
-      display: flex;
-      margin: 30px;
+.smashing {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    margin: 30px;
   }
-
+  
   .support {
-      height: 100px;
-      width: 30%;
-      align-items: center;
-      text-align: center;
+    height: 100px;
+    width: 30%;
+    align-items: center;
+    text-align: center;
   }
-
+  
   .shopify {
-      width: 86%;
-      height: 199px;
-      border: 1px solid;
-      border-radius: 11px;
-      margin-top: 33px;
-      margin-left: 38px;
+    width: 86%;
+    height: 199px;
+    border: 1px solid;
+    border-radius: 11px;
+    margin-top: 33px;
+    margin-left: 38px;
   }
-
+  
   .smashing-main {
-      display: flex;
-      flex-direction: column;
-      width: 60%;
-      height: 598px;
-      background: rgb(51, 50, 50);
-      border: 1px solid;
-      border-radius: 16px;
-      align-items: center;
-      text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 598px;
+    background: rgb(51, 50, 50);
+    border: 1px solid;
+    border-radius: 16px;
+    align-items: center;
+    text-align: center;
   }
-
+  
   .image-link {
-      width: 25%;
-      background-color: transparent;
+    width: 25%;
+    background-color: transparent;
   }
-
+  
   .smashing-main h1 {
-      margin-top: 30px;
-      font-size: 5rem;
-      line-height: 2em;
+    margin-top: 30px;
+    font-size: 5rem;
+    line-height: 2em;
   }
-
+  
   .smashing-main h2 {
-      margin: 30px;
-      padding-left: 75px;
-      padding-right: 75px;
-      font-size: 2rem;
-      line-height: 1.5em;
+    margin: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 2rem;
+    line-height: 1.5em;
   }
-
+  
   .features-link {
-      display: flex;
-      flex-direction: row;
-      width: fit-content;
-      height: 42px;
-      border-radius: 12px;
-      padding-left: 10px;
-      padding-right: 10px;
-      padding-top: 8px;
-      background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 42px;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    background-color: lightgray;
   }
-
+  
   .smashing-main .explore {
-      font-size: 2rem;
-      text-decoration: none;
-      margin-right: 5px;
-      margin-top: 5px;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-top: 5px;
   }
-
+  
   .features-link:hover {
-      cursor: pointer;
-      color: white;
-      margin-top: 9px;
+    cursor: pointer;
   }
-
+  
+  .features-link:hover .explore {
+    color: gray;
+  }
+  
+  .smashing-main span {
+    font-size: 16px;
+    color: white;
+    margin-top: 9px;
+  }
+  
   .features-link:hover .smashing-main span {
-      color: gray;
+    color: gray;
   }
-
+  
   /* smashing tv */
+  
   .smashing .post-wrapper {
-      width: 30%;
-      height: 600px;
-      margin-right: -30px;
+    width: 30%;
+    height: 600px;
+    margin-right: -30px;
   }
-
-  .latest-arti::after {
-      content: '  ';
+  
+  .lastest-arti {
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: -748px;
+    left: -583px;
+    color: #fff;
+    border-bottom: solid 5px #141414;
   }
-  /* Community Links */
-
+  
+  .lastest-arti::after {
+    content: '  ';
+  }
+  
+  /* Community links */
+  
   .community-links {
-      width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    background: rgb(134, 132, 132);
+  }
+  
+  .person-of-week {
+    display: flex;
+    width: 80%;
+    margin-top: 90px;
+    margin-left: 125px;
+  }
+  
+  .communitities {
+    width: 84%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: initial;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 90px;
+  }
+  
+  .community-wrapper {
+    display: inline-flex;
+    width: 90%;
+  }
+  
+  .community {
+    height: 380px;
+    text-align: left;
+    width: 344px;
+  }
+  
+  .community-author {
+    display: inline-flex;
+    margin-bottom: 15px;
+  }
+  
+  .community-photo {
+    border: solid white;
+    border-radius: 8px;
+    width: 75px;
+    height: 75px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    display: block;
+    transform: rotate(-20deg);
+    transform-origin: left bottom;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
+    transition: all 0.2s ease-out 0s;
+    margin-right: 10px;
+  }
+  
+  .community-photo:hover {
+    transform: rotate(0deg);
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0.5rem 2rem;
+  }
+  
+  .person-of-week .community-photo {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+  }
+  
+  .community-name {
+    display: inline-flex;
+    font-size: 18px;
+  }
+  
+  .community-article {
+    margin-bottom: 20px;
+  }
+  
+  .community-links h2 {
+    font-weight: 100;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+  }
+  
+  /* MAIN TABLE CONTENTS SECTION */
+  .main-table-contents-section {
       display: flex;
       flex-direction: column;
-      font-size: 13px;
-      background: rgb(134, 132, 132);
+      background-color: #161515;
   }
-  .person-of-week {
-      display: flex;
+  .first-contents-span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+    display: block;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 25px;
+    font-family: "Fredoka One", cursive;
   }
 
-  .community-links {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  font-size: 13px;
-  background: rgb(134, 132, 132);
-}
+  .table-contents-para {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "Fredoka One", cursive;
+  }
 
-.person-of-week {
-  display: flex;
-  width: 80%;
-  margin-top: 90px;
-  margin-left: 125px;
-}
+  .table-link-1 {
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #787878;
+    padding: 13px;
+    border-radius: 6px;
+    width: 25rem;
+    margin: 0 auto;
+  }
 
-.communtities {
-  width: 84%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: initial;
-  align-items: center;
-  margin-top: 90px;
-  margin-left: 90px;
-}
+  .homepage-illus {
+    width: 80rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 
-.community-wrapper {
-  display: inline-flex;
-  width: 90%;
-}
+  /* MAIN-DESIGN-SECTION *
+  /* <!-- Our guides section --> */
 
-.community {
-  height: 380px;
-  text-align: left;
-  width: 344px;
-}
+  .our-guides {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 20px;
+    margin: 35px;
+  }
 
-.community-author {
-  display: inline-flex;
-  margin-bottom: 15px;
-}
+  .guide {
+    width: 40%;
+    height: auto;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    background: rgb(190, 189, 189);
+    color: black;
+  }
 
-.community-photo {
-  border: solid white;
-  border-radius: 8px;
-  width: 75px;
-  height: 75px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  display: block;
-  transform: rotate(-20deg);
-  transform-origin: left bottom;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 2rem 4rem;
-  transition: all 0.2s ease-out 0s;
-  margin-right: 10px;
-}
+  .guide h1 {
+    margin-bottom: 40px;
+    color: black;
+  }
+  
+  .guide p {
+    margin-bottom: 35px;
+    font-weight: 100;
+    color: black;
+  }
+  
+  .guide-link {
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: "Fredoka One", cursive;
+    color: rgb(211, 205, 205);
+    background: transparent;
+  }
 
-.community-photo:hover {
-  transform: rotate(0deg);
-  box-shadow: rgba(0, 0, 0, 0.3) 0 0.5rem 2rem;
-}
+  .guide .guide-link {
+    background: none;
+    color: #333232;
+  }
+  
+  .guide-color1 {
+    color: white;
+  }
+  
+  a .guide-color1 {
+    background-color: #333232;
+  }
+  
+  .guide-color1:hover {
+    color: #888;
+  }
+  
+  .guide-color2 {
+    color: white;
+  }
+  
+  .guide-color3 {
+    color: white;
+  }
+  
+  .guide-color4 {
+    color: #333232;
+  }
 
-.person-of-week .community-photo {
-  width: 200px;
-  height: 200px;
-  margin-right: 10px;
-}
+  a .guide-color2 {
+    background-color: #535355;
+  }
+  
+  a .guide-color3 {
+    background-color: #9a9a9f;
+  }
+  
+  a .guide-color4 {
+    background-color: #6b6b6b;
+  }
+  
+  .email-section {
+    background: #a5a2a2;
+  }
+  
+  .email {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    background: white;
+  }
+  
+  .guide img {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+  }
+  
+  .email form {
+    height: inherit;
+    width: 65%;
+  }
+  
+  .email input {
+    font-size: 20px;
+    height: 30px;
+    width: 90%;
+    margin: 10px;
+    border: none;
+  }
+  
+  .email input:focus {
+    outline: none;
+  }
+  
+  .email button {
+    width: 35%;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-family: "Fredoka One", cursive;
+    font-weight: 800;
+  }
+  
+  .email-link {
+    margin-top: 30px;
+  }
+  
+  .email-last {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+  }
 
-.community-name {
-  display: inline-flex;
-  font-size: 18px;
-}
-
-.community-article {
-  margin-bottom: 20px;
-}
-
-.community-links h2 {
-  font-weight: 100;
-  margin-bottom: 30px;
-  line-height: 1.5em;
-}
-
-/* MAIN TABLE CONTENTS SECTION */
-
-.main-table-contents-section {
-  display: flex;
-  flex-direction: column;
-  background-color: #333232;
-}
-
-.first-contents-span {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 2px;
-  display: block;
-  text-align: center;
-  padding-top: 5rem;
-  padding-bottom: 25px;
-}
-
-.table-contents-para {
-  display: flex;
-  justify-content: center;
-  font-size: 2rem;
-  color: #fff;
-  text-align: center;
-  padding-bottom: 30px;
-}
-
-.table-link-1 {
-  color: #fff;
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: #787878;
-  padding: 13px;
-  border-radius: 6px;
-  width: 25rem;
-  margin: 0 auto;
-}
-
-.homepage-illus {
-  width: 80rem;
-  height: 40rem;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+  
