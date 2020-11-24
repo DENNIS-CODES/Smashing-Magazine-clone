@@ -15,4 +15,21 @@ This was also an opportunity to get better at positioning <div> .
 ## CLONED SIGHT
 [SMASHING_MAGAZINE](https://www.smashingmagazine.com/)
 
+## Author
 
+👤 **Dennis Mwangi**
+
+- GitHub: [@DENNIS-CODES](https://github.com/DENNIS-CODES)
+- Twitter: [@DENNISM44052159](https://twitter.com/DENNISM44052159)
+- Linkedin: [@DENNIS-MWANGI](https://www.linkedin.com/in/dennis-mwangi-14b7a01b2/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
