@@ -875,4 +875,162 @@ h1,h2,h3,a, .post-into,.post-author,.community-links,.guide p {
     font-size: 18px;
   }
 
+  /* footer section */
+
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: rgb(77, 70, 70);
+    height: auto;
+    align-items: center;
+    color: white;
+  }
   
+  .browse {
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .footer-list {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    max-width: 90%;
+    margin-bottom: 70px;
+  }
+  .footer-list a {
+    font-size: 24px;
+    color: white;
+    margin-left: 9px;
+    margin-right: 8px;
+}
+  
+  .footer div {
+    padding: 2px;
+    margin-right: 12px;
+    margin-left: 10px;
+  }
+  
+  .statement {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Fredoka One", cursive;
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 3rem;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 50%;
+    font-size: 19px;
+    line-height: 2.5em;
+  }
+  .footer-links a {
+    text-decoration-color: underline;
+    color: #fff;
+    margin-right: 15px;
+  }
+  
+  .main-design-sect {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    padding: 30px 70px;
+    margin-top: 40px;
+    color: #fff;
+    margin-bottom: 3rem;
+    background: #333232;
+  }
+  
+  .main-design-left h4 {
+    font-size: 18px;
+  }
+  
+  .header-main-design {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 30px;
+  }
+  
+  .header-main-design h1 {
+    margin: 6px 0;
+  }
+  
+  .main-design-left p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-main-design-sect {
+    color: rgb(39, 38, 38);
+    font-size: 2rem;
+    border-radius: 15px;
+    padding: 17px;
+    margin: 20px;
+    background-color: rgb(209, 202, 202);
+  }
+  
+  .main-design-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-design-right img {
+    width: 260px;
+    position: absolute;
+    bottom: 15px;
+    transform: rotate(-15deg);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.3);
+    background: transparent;
+  }
+  
+  .main-design-right img:hover {
+    transform: rotate(0deg);
+  }
+  
+  .cat {
+    position: absolute;
+    width: 190px;
+    bottom: 50px;
+    right: 50px;
+  }
+  
+  .laptop {
+    position: absolute;
+    width: 160px;
+    bottom: 50px;
+    left: 50px;
+  }
+  
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    background: lightgray;
+    width: 51px;
+    height: 45px;
+    border-radius: 7px;
+    transform: rotate(-11deg);
+  }
+  
+  .back-to-top:hover {
+    background: darkgray;
+    transform: rotate(0deg);
+  }
+  
+  .back-to-top .iconify {
+    margin-left: 7px;
+    font-size: 39px;
+    color: darkslategray;
+  }
