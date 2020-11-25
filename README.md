@@ -9,7 +9,7 @@ This was also an opportunity to get better at positioning div element .
 - Font awesome
 
 ## SCREENSHORT
-![screencapture-127-0-0-1-5501-index-html-2020-11-24-12_58_34](https://user-images.githubusercontent.com/65861136/100078742-e344ce80-2e54-11eb-8e47-ceac786c2a41.png)
+![screencapture-file-C-Users-user-Desktop-smashing-magazine-clone-index-html-2020-11-24-21_49_21 (1)](https://user-images.githubusercontent.com/65861136/100193132-43df1480-2f04-11eb-9746-3a4b9ad29790.png)
 
 ## LIVE DEMO
 [link](https://dennis-codes.github.io/Smashing-Magazine-clone/)
